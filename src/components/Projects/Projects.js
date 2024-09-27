@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import hackathon from "../../Assets/about.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -27,6 +27,16 @@ function Projects() {
               description="Crypto Hack is a web application designed to provide users with real-time data on cryptocurrency prices and market trends. The platform allows users to track various cryptocurrencies, view historical performance, and analyze market fluctuations. Built using React.js and powered by an API for live data, it features a clean, user-friendly interface for navigating through different coins, market insights, and price comparisons."
               ghLink="https://github.com/VishalAdhikari18/crypto_hack"
               demoLink="https://crypto-hack.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hackathon}
+              isBlog={false}
+              title="Hackathon Management App"
+              description="Developed a web application for an Edtech company that allows organizers to manage hackathons efficiently. Users can create, edit, and delete hackathon events with additional features like sorting, searching, and filtering for seamless event management. Built with React, the app provides an intuitive interface for enhanced user experience."
+              ghLink="https://github.com/VishalAdhikari18/hackathon"
+              demoLink="https://hackathon-zeta-opal.vercel.app/"
             />
           </Col>
 
